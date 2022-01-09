@@ -1,6 +1,6 @@
 ## welle.io command line interface only on raspberry (2) 
  Linux version 5.10.63-v7+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1488 SMP Thu Nov 18 16:14:44 GMT 2021
-
+```
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -18,3 +18,4 @@ sudo make install
 
 cd /usr/local/share/welle-io/html
 welle-cli -s "driver=sdrplay,soapy=0,rfnotch_ctrl=true,dabnotch_ctrl=true" -w 8008 -c 12B
+```
