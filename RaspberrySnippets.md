@@ -3,10 +3,11 @@
     sudo dpkg-reconfigure -plow unattended-upgrades
     
 # Static IP
-ip=<Raspi-IP>:<Netboot-Server>:<Gateway-IP>:<Subnetzmaske>:<Hostname>:<Netzwerkkarte>:<Autoconf>
+Edit cmd
+    ip=<Raspi-IP>:<Netboot-Server>:<Gateway-IP>:<Subnetzmaske>:<Hostname>:<Netzwerkkarte>:<Autoconf>
 
 Sample
-ip=192.168.0.x::192.168.0.1:255.255.255.0:raspy:eth0:off
+    ip=192.168.0.x::192.168.0.1:255.255.255.0:raspy:eth0:off
     
     
 # GPIO install    
@@ -28,7 +29,7 @@ usage: https://www.ics.com/blog/gpio-programming-exploring-libgpiod-library
     wget https://sourceforge.net/projects/lmsclients/files/squeezelite/linux/squeezelite-1.9.9.1411-armhf.tar.gz/download
     tar -C /usr/bin -zxvf squeezelite-1.9.9.1411-armhf.tar.gz
     
-    Mefdia Server
+    Media Server
     wget https://downloads.slimdevices.com/LogitechMediaServer_v8.2.0/logitechmediaserver_8.2.0_arm.deb
     
     
