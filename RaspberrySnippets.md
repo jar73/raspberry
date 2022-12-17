@@ -46,6 +46,15 @@ sudo apt-get install -y libsox-fmt-all libflac-dev libfaad2
     sudo apt-get install nfs-common
     sudo apt-get install autofs
     
+
+# Network issues
+    
+    ip addr show
+    ip route
+    ping -c3 $(ip route | awk '/default/ {print $3}')
+    ping -c3 8.8.8.8
+    ping -c3 google.com
+    cat /etc/resolv.conf
     
     
     
